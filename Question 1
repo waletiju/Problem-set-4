@@ -1,0 +1,17 @@
+
+The format for this metadata was adapted from Matt Gitzendanner's class example https://github.com/CompTools/Class_Files/blob/master/data/flights_metadata.md
+This file is a short metadata based on the US state energy data from the [The U.S. Energy Information Administration](https://www.eia.gov/state/seds/seds-data-fuel.php?sid=US#DataFiles).
+
+The columns in the dataset are in the table below.
+
+Column header | Description
+--------------|------------
+Data_Status | The status of the data. "2017P" indicates that the data is "in progress" from the 2017 data cycle
+State | Two letter state abbreviation
+MSN | 5 letter mnemonic code indicating things such as Energy Source, Energy Consumption Sectors, and Energy Activities. Please follow this link for further information https://www.eia.gov/state/seds/sep_use/total/csv/use_csv_doc.pdf
+1970 | All data from 1970
+1971 | All data from 1971
+1972 | All data from 1972
+... | ...
+2016 | All data from 2016
+2017 | All data from 2017
