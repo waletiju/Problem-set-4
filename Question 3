@@ -1,0 +1,17 @@
+
+CREATE TABLE `Energy Totals` (
+  `ID` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `State` CHAR(2) NOT NULL DEFAULT '0'
+,  `Year` integer(4) NOT NULL DEFAULT '0'
+,  `Total Energy` float NOT NULL DEFAULT '0'
+,  `Total Net Energy` float NOT NULL DEFAULT '0'
+);
+
+CREATE TABLE `Energy Statistics` (
+  `Coal Total Consumption` float NOT NULL DEFAULT 0''
+,  `Natural gas Total Consumption` float NOT NULL DEFAULT '0'
+,  `Petroleum Total Consumption` float NOT NULL DEFAULT '0'
+,  `Renewable Energy Total Consumption` float NOT NULL DEFAULT '0'
+,  `Nuclear electric power Total Consumption` float NOT NULL DEFAULT '0'
+,  CONSTRAINT `es_ibfk_1` FOREIGN KEY (`StateID`) REFERENCES `Energy Totals` (`ID`)
+);
