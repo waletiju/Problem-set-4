@@ -1,0 +1,7 @@
+
+.mode csv energy_data
+.import energy_data.csv energy_data
+.mode column
+.headers on
+
+#This will load the data into sqlite from the csv file. However the results from queries looks very weird using my code.
