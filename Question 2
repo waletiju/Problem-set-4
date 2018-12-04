@@ -1,0 +1,28 @@
+
+Table 1: Energy Totals
+------------------------
+Random generated ID (Primary Key)
+State
+Year
+Total Energy
+Total Net Energy
+
+Table 2:  Energy Statistics
+----------------------------
+Coal data from Total Consumption
+Natural gas data from Total Consumption
+All Petroleum products data from Total Consumption
+Renewable Energy data from Total Consumption
+Nuclear electric power data from Total Consumption
+Energy Totals ID (Foreign Key)
+
+The U.S. Energy Information Administration website provides a yearly dataset of energy totals for each US state with a breakdown of energy
+sources (e.g fossil fuels, renewable energy, etc…). I wanted to focus on popular mainstream energy sources and see how they fluctuate 
+across the country. Table 1 provides important basic information in each of its columns. These include the state, year, total energy 
+statistics, and a randomly generated ID code. The state column will only accept string data with a length of two (i.e. state abbreviations)
+while every other column will be float/integer values.
+
+The second table will include columns with the total consumption values from the popular mainstream energy sources, such as coal, natural 
+gas, petroleum, renewable energy, and nuclear energy. These columns will only accept data in float format. The last column will be 
+table 2’s foreign key, which is the randomly generated ID code from table 1. This will link important information such as state/ year with
+all types of consumption data found in table 2.
