@@ -26,3 +26,4 @@ The second table will include columns with the total consumption values from the
 gas, petroleum, renewable energy, and nuclear energy. These columns will only accept data in float format. The last column will be 
 table 2’s foreign key, which is the randomly generated ID code from table 1. This will link important information such as state/ year with
 all types of consumption data found in table 2.
+ 
